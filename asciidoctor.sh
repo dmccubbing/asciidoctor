@@ -1,3 +1,3 @@
 #!/bin/bash
 
-docker run -i -t cs50/asciidoctor $@
+docker run -v "$PWD":/root -i --rm -t -w /root cs50/asciidoctor $@

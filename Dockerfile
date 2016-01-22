@@ -1,9 +1,6 @@
 FROM ubuntu:14.04.2
 MAINTAINER David J. Malan <malan@harvard.edu>
 
-# working directory
-WORKDIR /root
-
 # http://stackoverflow.com/a/5243258
 ENV LC_CTYPE "en_US.UTF-8"
 
